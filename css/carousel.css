@@ -158,3 +158,19 @@ body {
     margin-top: 120px;
   }
 }
+
+
+.main-text {
+  color: black;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.stack {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stack img {
+  padding: 25px;
+}
