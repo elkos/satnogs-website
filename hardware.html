@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SatNOGS - Satellite Networked Open Ground Station</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="./js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="./css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">
+                <img src="./img/satnogs-logo-header-20.png">
+              </a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li class="active dropdown">
+                  <a href="documentation.html" class="dropdown-toggle" data-toggle="dropdown">Documentation<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="documentation.html">Overview</a></li>
+                    <li><a href="software.html">Software</a></li>
+                    <li><a href="hardware.html">Hardware</a></li>
+                  </ul>
+                </li>
+                <li><a href="#contact">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="container main-text">
+        <h2 class="featurette-heading">Hardware</h2>
+        <p class="lead">SatNOGS includes a hardware stack, detailing the construction and deployment of a complete ground station for satellites. Materials and resources used as readily available, affordable and to the extend possible re-using existing projects.</p>
+      </div>
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h4 class="featurette-heading">Tripod<br><span class="text-muted">Portable, easy to assemble</span></h4>
+          <p class="lead">Designed and build with mobility in mind, this lightweight tripod is made of 3D-printed parts alluminium profiles and bolts to keep everything together.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="http://placehold.it/500x500" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="./img/exploded.png" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h4 class="featurette-heading">Tracking mechanism<br><span class="text-muted">Printable, parametric</span></h4>
+          <p class="lead">Our tracking mechanism is designed from scratch, parametric by default, 3D printed in under 8 hours. Utilizing two NEMA14 stepper motors we have uncostrained movement in Altitude and Azimuth.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h4 class="featurette-heading">Driving electronics<br><span class="text-muted">Open-source, accurate</span></h4>
+          <p class="lead">Two Stepper motor drivers and an Arduino controlling them, are our driving electronics. Simple yet accurate.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="./img/driver.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="./img/yagi.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h4 class="featurette-heading">Antennas<br><span class="text-muted">Custom, modular</span></h4>
+          <p class="lead">Lightweight antennas designed to meet satellite communication specifications. SatNOGS includes designs and how-tos for 70cm and 2m band Yagi antennas. Parabolic antenna design is in the works too.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h4 class="featurette-heading">Single-board computer<br><span class="text-muted">Integrated, low power</span></h4>
+          <p class="lead">Our primary configuration includes the <a href="http://beagleboard.org/Products/BeagleBone+Black">BeagleBone Black</a> or the <a href="http://wiki.openwrt.org/toh/tp-link/tl-wr703n">TP-Link TL-WR703N</a> as a single-board computer. Running Debian or OpenWrt, exposes all ground station functionality (status, tracking, signal receiving and processing) over LAN or WiFi for extreme mobility or remote operation.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="./img/tplink.jpg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="./img/dvbt.JPG" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h4 class="featurette-heading">Receiver<br><span class="text-muted">Versatile, affordable</span></h4>
+          <p class="lead">Based on the versatile
+            <a href="http://www.realtek.com.tw/products/productsView.aspx?Langid=1&PFid=35&Level=4&Conn=3&ProdID=257">RTL2832U chip</a>
+            , SatNOGS is using R820T RTL-SDR as the default signal receiver and tuner. The R820T RTL-SDR
+            is currently the cheapest, most common, and most performing solution available in terms of general sensitivity having
+            a frequency range of 24 – 1766 MHz. The stack allows usage of other receivers too (like amateur
+            radio transceivers) through the usage of rigctld (part of
+            <a href="http://sourceforge.net/apps/mediawiki/hamlib/index.php?title=Main_Page">Ham Lib project</a>).
+          </p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 SatNOGS Team &middot;</p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/docs.min.js"></script>
+  </body>
+</html>

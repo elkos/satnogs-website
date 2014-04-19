@@ -46,7 +46,6 @@
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#about">About</a></li>
                 <li class="active dropdown">
                   <a href="documentation.html" class="dropdown-toggle" data-toggle="dropdown">Documentation<b class="caret"></b></a>
                   <ul class="dropdown-menu">
@@ -68,32 +67,22 @@
     <div class="container">
 
       <div class="container main-text">
-        <h2 class="featurette-heading">Intro</h2>
-        <p class="lead">SatNOGS is a modular and scalable stack for Satellite Ground Station implementation. Fully based on open source technologies and open standards, it provides interoperability with existing or future subsystems.</p>
-        <h2 class="featurette-heading">The Stack</h2>
-        <p class="lead">The stack can be vizualized as follows:</p>
-        <div class="container stack">
-          <a href="./img/stack.png">
-            <img src="./img/stack.png">
-          </a>
-          <a href="./img/stack_gpredict.png">
-            <img src="./img/stack_gpredict.png">
-          </a>
-        </div>
+        <h2 class="featurette-heading">Software</h2>
+        <p class="lead">SatNOGS includes an open-source modular software stack, developed from scratch or utilizing existing projects. The versatilty of the architecture enables communication with existing software or easy development of custom software for specific needs.</p>
       </div>
 
 
-      <!-- START THE FEATURETTES 
+      <!-- START THE FEATURETTES -->
 
       <hr class="featurette-divider">
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h4 class="featurette-heading">Tracking<br><span class="text-muted">Precise, standardized</span></h4>
+          <p class="lead">Two options for tracking are available. Operators may use the popular GPredict for real-time satellite tracking and orbit prediction or a custom build solution in Python that provides API for custom or remote unattended tracking. Both solutions are communicating with the mount using rotctld over Easycomm protocol.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="./img/gpredict.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
@@ -101,11 +90,11 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="./img/gpredict-sch.jpg" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h4 class="featurette-heading">Scheduling and management<br><span class="text-muted">Extendable, remote</span></h4>
+          <p class="lead">Using Gpredict or SatNOGS custom scheduling and management interface an operator can plan her observation session efficiently. SatNOGS project is also creating a global management interface for operators combining multiple ground stations for imporved coverage around the globe.</p>
         </div>
       </div>
 
@@ -113,17 +102,17 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h4 class="featurette-heading">Software defined radio<br><span class="text-muted">Fast, versatile</span></h4>
+          <p class="lead">Multiple options are available for software defined radio. All of them based on GNURadio can handle radio tuning, receiving and decoding in a variety of modulations. Our default stack includes Gqrx (a GTK SDR) and ShinySDR (a web-based SDR for remote operations).</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="./img/sdr.jpg" alt="Generic placeholder image">
         </div>
       </div>
 
       <hr class="featurette-divider">
 
-       /END THE FEATURETTES -->
+      <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->

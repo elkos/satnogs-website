@@ -56,7 +56,7 @@ body {
 }
 .carousel-inner > .item > img {
   position: absolute;
-  top: 0;
+  bottom: -80px;
   left: 0;
   min-width: 100%;
   height: auto;
@@ -66,6 +66,7 @@ body {
   .carousel-inner > .item > img {
     min-height: 100%;
     left:auto;
+    bottom:0;
     right:0;
     min-width: 768px;
   }
@@ -159,18 +160,18 @@ body {
   }
 }
 
-
-.main-text {
-  color: black;
-  margin-top: 50px;
-  padding: 50px;
-}
-
 .stack {
   margin: 0 auto;
-  text-align: center;
+  display: inline-block;
 }
 
 .stack img {
   padding: 25px;
+  width: 500px;
+}
+
+@media (max-width: 992px) {
+  .stack img {
+    width: 80%;
+  }
 }
