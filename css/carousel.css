@@ -175,3 +175,16 @@ body {
     width: 80%;
   }
 }
+
+span.area {
+  font-size: 80%;
+  font-style: italic;
+}
+
+img#team {
+  width:100%;
+}
+
+.middle {
+  text-align: center;
+}
