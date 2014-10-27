@@ -69,6 +69,7 @@
       <div class="container main-text">
         <h2 class="featurette-heading">Software</h2>
         <p class="lead">SatNOGS includes an open-source modular software stack, developed from scratch or utilizing existing projects. The versatilty of the architecture enables communication with existing software or easy development of custom software for specific needs.</p>
+        <p class="lead">For all following Software components you can select to either use the SatNOGS software of the equivelent software for non-networked operations.</p>
       </div>
 
 
@@ -94,12 +95,13 @@
 
       <div class="row featurette">
         <div class="col-md-5">
-          <img class="featurette-image img-responsive" src="./img/gpredict-sch.jpg" alt="Generic placeholder image">
+          <img class="featurette-image img-responsive" src="./img/satnogs-network.png" alt="Generic placeholder image">
         </div>
         <div class="col-md-7">
           <h4 class="featurette-heading">Scheduling and management<br><span class="text-muted">Extendable, remote</span></h4>
-          <p class="lead">Using Gpredict or SatNOGS custom scheduling and management interface an operator can plan her observation session efficiently. SatNOGS project is also creating a global management interface for operators combining multiple ground stations for improved coverage around the globe.</p>
-          <p><a class="btn btn-default btn-primary" href="https://github.com/satnogs/satnogs-software/tree/master/satlocator" role="button">View code</a></p>
+          <p class="lead">Using Gpredict or SatNOGS Network an operator can plan her observation session efficiently. SatNOGS Network is a global management interface for operators combining multiple ground stations for improved coverage around the globe.</p>
+          <p><a class="btn btn-default btn-primary" href="https://github.com/satnogs/satnogs-network" role="button">View code for SatNOGS Network</a></p>
+          <p><a class="btn btn-default btn-primary" href="https://dev.satnogs.org/" role="button">View dev instance</a></p>
         </div>
       </div>
 
@@ -107,15 +109,29 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h4 class="featurette-heading">Software defined radio<br><span class="text-muted">Fast, versatile</span></h4>
-          <p class="lead">Multiple options are available for software defined radio. All of them based on GNURadio can handle radio tuning, receiving and decoding in a variety of modulations. Our default stack includes Gqrx (a GTK SDR), ShinySDR (a web-based SDR for remote operations) and a custom built solution.</p>
-          <p>
-            <a class="btn btn-default btn-primary" href="https://github.com/satnogs/satnogs-software/tree/master/simplesdr" role="button">View code</a>
-            <a class="btn btn-default btn-primary" href="http://gqrx.dk/" role="button">Gqrx</a>
-          </p>
+          <h4 class="featurette-heading">Transponders Database<br><span class="text-muted">Open, Crowd-sourced</span></h4>
+          <p class="lead">Addressing the need for a global, accesible Transponders Database we created SatNOGS DB. A separate crowd-sourced suggestions app build around transponder data for satellites.In a true community and open data fashion it is open, crowd-sourced and not necessarily SatNOGS specific.</p>
+          <p><a class="btn btn-default btn-primary" href="https://github.com/satnogs/satnogs-db" role="button">View code for SatNOGS DB</a></p>
+          <p><a class="btn btn-default btn-primary" href="http://db.satnogs.org/" role="button">View dev instance</a></p>
         </div>
         <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="./img/satnogs-db.png" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
           <img class="featurette-image img-responsive" src="./img/sdr.jpg" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h4 class="featurette-heading">Software defined radio<br><span class="text-muted">Fast, versatile</span></h4>
+          <p class="lead">Multiple options are available for software defined radio. All of them based on GNURadio can handle radio tuning, receiving and decoding in a variety of modulations. Our default stack includes Gqrx (a GTK SDR) or rtl-sdr (a cli-based SDR for remote operations).</p>
+          <p>
+            <a class="btn btn-default btn-primary" href="https://github.com/satnogs/rtl-sdr" role="button">View code for rtl-sdr</a>
+            <a class="btn btn-default btn-primary" href="http://gqrx.dk/" role="button">Gqrx</a>
+          </p>
         </div>
       </div>
 
